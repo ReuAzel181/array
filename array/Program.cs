@@ -14,7 +14,7 @@ for (int i = 0; i < usernum; i++)
         emails[i] = userInputEmail;
     }
 
-    Console.Write("Enter username for user " + (i + 1) + ": ");
+    Console.Write("Enter username for user " + (i) + ": ");
     string? userInputUsername = Console.ReadLine();
     if (userInputUsername != null)
     {
